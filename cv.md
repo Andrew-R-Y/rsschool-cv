@@ -12,7 +12,7 @@ Codewars: [Andrew](https://www.codewars.com/users/rsschool_2e5c6cec6debeeb2)
 
 Discord: Andrew-R-Y#1665
 
-phone: +7 926-702-22-42
+mobile phone: +7 926-702-22-42
 
 ### About
 
@@ -49,12 +49,12 @@ function fromDecimalConvert (decimal, targetAlphabet) {
 
 ### Education
 
-[2005 - Russian State University of oil and gas by I.M.Gubkin](https://en.gubkin.ru/) Engineer of oil & gas pipeline and storage design & operation;
-[freeCodeCamp](https://www.freecodecamp.org/Andrew_RY)
-[ru.code-basics.com](https://code-basics.com/ru)
++ [2005 - Russian State University of oil and gas by I.M.Gubkin](https://en.gubkin.ru/) Engineer of oil & gas pipeline and storage design & operation;
++ [freeCodeCamp](https://www.freecodecamp.org/Andrew_RY)
++ [ru.code-basics.com](https://code-basics.com/ru)
 
 ### Languages
 
-+ Russian (native speaker)
-+ English B1 (according to EPAM Training portal at jan.17 2023. Test ID: 3537)
-+ Romanian (basic)
+1. Russian (native speaker)
+2. English B1 (according to EPAM Training portal at jan.17 2023. Test ID: 3537)
+3. Romanian (basic)
