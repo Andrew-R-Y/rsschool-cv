@@ -58,5 +58,5 @@ function fromDecimalConvert (decimal, targetAlphabet) {
 ### Languages
 
 1. Russian (native speaker)
-2. English B1
+2. [English C1](https://www.efset.org/cert/AubRpd)
 3. Romanian A2
