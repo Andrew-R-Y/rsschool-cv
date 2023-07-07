@@ -7,33 +7,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
   <title>CV Andrew Rakitin</title>
+  <link rel="icon" sizes="32x32" type="image/png" href="./img/cv-icon-32x32.png">
 </head>
 
 <body class="page">
   <div class="wrapper">
     <div class="content">
+      <!-- left section start -->
       <div class="content-left">
-        <img class="CV-image" src="./img/cv_photo.jpg" alt="CV photo">
-        <h2 class="heading-second">Contacts:</h2>
-        <p>address: <a href="https://goo.gl/maps/6rAycipyuJFp1ZoB7" target="_blank" class="link">Moscow,
-            Russia</a></p>
-        <p><a href="mailto:rakitinandrei@gmail.com" class="link">e-mail: rakitinandrei@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/Andrew-R-Y" class="link">Andrew-R-Y</a></p>
-        <p>Codewars: <a href="https://www.codewars.com/users/rsschool_2e5c6cec6debeeb2" class="link">Andrew</a>
-        </p>
-        <p>Discord: <a href="https://discord.com/" class="link">andrew_r_y</a></p>
-        <p>mobile phone: <a href="tel:+79267022242" class="link">+7 926-702-22-42</a></p>
-        <h2 class="heading-second">Education:</h2>
+        <img class="cv-image" src="./img/cv_photo.jpg" alt="my photo">
+        <h2 class="heading-second" id="contacts">Contacts:</h2>
+        <div class="line"></div>
+        <ul class="list-contacts">
+          <li class="item-contacts">address: <a href="https://goo.gl/maps/6rAycipyuJFp1ZoB7" target="_blank"
+              class="link">Moscow,
+              Russia</a></li>
+          <li class="item-contacts"><a href="mailto:rakitinandrei@gmail.com" class="link">e-mail:
+              rakitinandrei@gmail.com</a>
+          </li>
+          <li class="item-contacts">mobile phone: <a href="tel:+79267022242" class="link">+7 926-702-22-42</a></li>
+          <li class="item-contacts">GitHub: <a href="https://github.com/Andrew-R-Y" class="link"
+              target="_blank">Andrew-R-Y</a>
+          </li>
+          <li class="item-contacts">Codewars: <a href="https://www.codewars.com/users/rsschool_2e5c6cec6debeeb2"
+              class="link" target="_blank">Andrew</a></li>
+          <li class="item-contacts">Discord: <a href="https://discord.com/" class="link" target="_blank">andrew_r_y </a>
+          </li>
+        </ul>
+        <h2 class="heading-second" id="education">Education:</h2>
+        <div class="line"></div>
         <h3 class="heading-third">2000 - 2005</h3>
-        <p><a href="https://en.gubkin.ru/" class="link">Russian State University of oil and gas by
+        <p><a href="https://en.gubkin.ru/" class="link" target="_blank">Russian State University of oil and gas by
             I.M.Gubkin:</a></p>
         <p>Engineer of oil & gas pipeline and storage design & operation</p>
         <h3 class="heading-third">2023</h3>
-        <p><a href="https://www.freecodecamp.org/Andrew_RY" class="link">freeCodeCamp</a></p>
+        <p><a href="https://www.freecodecamp.org/Andrew_RY" class="link" target="_blank">freeCodeCamp</a></p>
         <h3 class="heading-third">2023</h3>
-        <p><a href="https://code-basics.com/ru" class="link">code-basics</a></p>
+        <p><a href="https://code-basics.com/ru" class="link" target="_blank">code-basics</a></p>
 
-        <h2 class="heading-second">Skills:</h2>
+        <h2 class="heading-second" id="skills">Skills:</h2>
+        <div class="line"></div>
         <ul class="list">
           <li class="item">HTML</li>
           <li class="item">CSS</li>
@@ -41,46 +54,83 @@
           <li class="item">JavaScript</li>
           <li class="item">Git & GitHub</li>
           <li class="item">TypeScript</li>
-          <h2 class="heading-second">Language:</h2>
-          <p>Russian: native speaker</p>
-          <p>English: <a href="https://efset.org/cert/AubRpd" class="link" target="_blank">C1 (EF SET
-              test)</a>
-          </p>
-          <p>Romanian: A2</p>
+        </ul>
+        <h2 class="heading-second" id="language">Language:</h2>
+        <div class="line"></div>
+        <p>Russian: native speaker</p>
+        <p>English: <a href="https://efset.org/cert/AubRpd" class="link" target="_blank">C1 (EF SET
+            test)</a>
+        </p>
+        <p>Romanian: A2</p>
       </div>
+      <!-- left section end -->
+
+      <!-- right section start -->
       <div class="content-right">
+        <!-- header start -->
         <header class="header">
-          <nav class="nav-menu">some navigation here</nav>
+          <nav class="nav">
+            <ul class="nav-menu">
+              <li class="nav-menu-item"><a class="link-dark" href="#contacts">Contacts</a></li>
+              <li class="nav-menu-item"><a href="#education" class="link-dark">Education</a></li>
+              <li class="nav-menu-item"><a href="#skills" class="link-dark">Skills</a></li>
+              <li class="nav-menu-item"><a href="#language" class="link-dark">Language</a></li>
+              <li class="nav-menu-item"><a href="#about" class="link-dark">About</a></li>
+              <li class="nav-menu-item"><a href="#code" class="link-dark">Code sample</a></li>
+              <li class="nav-menu-item"><a href="#projects" class="link-dark">Projects</a></li>
+            </ul>
+
+          </nav>
         </header>
-        <h1 class="main-header">Andrew Rakitin</h1>
-        <p class="second-line">frontend developer</p>
-        <br>
-        <h2 class="heading-second">About:</h2>
-        <p class="about">
-          Currently I'm a pipeline engineer at oil pipeline design company at position Chief Specialist. I
-          have
-          experience in oil pipeline calculations and design, and experience in general customer office as a
-          technical contractor. I like physics and mathematics and I'm intresting in coding.
-        </p>
-        <p class="about">
-          I started to learn JavaScript at summer 2022 from 11-hours YouTube video by Bogdan Stashchuk and
-          freeCodeCamp platform. Currently I'am studying at RS School #Stage 0. My best qualities are persistence
-          and
-          drive for results.
-        </p>
-        <h2 class="heading-second">Code sample:</h2>
-        <code>
-          &nbsp&nbspfunction deepCount(a){<br>
-          &nbsp&nbsp&nbsp&nbspreturn a.reduce((accum, item) => {<br>
-          &nbsp&nbsp&nbsp&nbsp&nbsp&nbspif (typeof item === 'string' || typeof item === 'number') {<br>
-          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn (accum = accum + 1);<br>
-          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp} else {<br>
-          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn accum + 1 + deepCount(item);<br>
-          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}<br>
-          &nbsp&nbsp&nbsp&nbsp}, 0);<br>
-          &nbsp&nbsp}<br>
-        </code>
+        <!-- header end -->
+
+        <!-- main start -->
+        <main class="main">
+
+          <h1 class="main-heading">Andrew Rakitin</h1>
+          <p class="second-line">frontend developer</p>
+          <br>
+          <h2 class="heading-second" id="about">About:</h2>
+          <div class="long-line"></div>
+          <p class="about">
+            Currently I'm a pipeline engineer at oil pipeline design company at position Chief Specialist. I
+            have
+            experience in oil pipeline calculations and design, and experience in general customer office as a
+            technical contractor. I like physics and mathematics and I'm intresting in coding.
+          </p>
+          <p class="about">
+            I started to learn JavaScript at summer 2022 from 11-hours YouTube video by Bogdan Stashchuk and
+            freeCodeCamp platform. Currently I'am studying at RS School #Stage 0. My best qualities are persistence
+            and
+            drive for results.
+          </p>
+          <h2 class="heading-second" id="code">Code sample:</h2>
+          <div class="long-line"></div>
+          <code>
+            &nbsp&nbspfunction deepCount(a){<br>
+            &nbsp&nbsp&nbsp&nbspreturn a.reduce((accum, item) => {<br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbspif (typeof item === 'string' || typeof item === 'number') {<br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn (accum = accum + 1);<br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp} else {<br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn accum + 1 + deepCount(item);<br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}<br>
+            &nbsp&nbsp&nbsp&nbsp}, 0);<br>
+            &nbsp&nbsp}<br>
+          </code>
+          <h2 class="heading-second" id="projects">Complete projects:</h2>
+          <div class="long-line"></div>
+          <ul class="projects">
+            <li class="project-item"><a
+                href="https://rolling-scopes-school.github.io/andrew-r-y-JSFE2023Q1/shelter/pages/main/"
+                class="link-dark" target="_blank">Shelter task</a></li>
+            <li class="project-item"><a href="https://github.com/Andrew-R-Y/morse-decoder" class="link-dark"
+                target="_blank">Morse code
+                decoder</a></li>
+          </ul>
+        </main>
+        <!-- main end -->
       </div>
+      <!-- right section end -->
     </div>
   </div>
 
