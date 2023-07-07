@@ -1,6 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    transition: all 0.1s;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .page {
@@ -33,25 +38,50 @@
     display: inline-block;
     box-sizing: border-box;
     flex-basis: 67%;
-    padding: 20px;
+    padding: 10px 20px;
     color: #1b3764;
     background-color: #ffffff;
 }
 
+/* header styles start */
 .header {
     width: 100%;
     height: 50px;
-    padding: 5px;
-    border: 1px solid black;
+}
+
+.nav {
+    width: 100%;
+    margin: 0 auto;
 }
 
 .nav-menu {
-    width: 100%;
-    margin: 0 auto;
-    border: 1px solid black;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
 }
 
-.main-header {
+.nav-menu-item {
+    display: inline-block;
+    list-style-type: none;
+    margin-bottom: 8px;
+    margin-right: 20px;
+}
+
+.nav-menu-item:first-child a{
+    color: #f18b42;
+    text-decoration: underline;
+}
+
+.nav-menu-item .link-dark {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/* header styles end */
+
+.main-heading {
+    margin-top: 20px;
     font-family: 'Tahoma', sans-serif;
     letter-spacing: 2px;
     font-weight: 700;
@@ -64,17 +94,26 @@ p.second-line {
     color: #000000;
 }
 
-.CV-image {
+.cv-image {
     display: block;
     margin: 0 auto;
     border-radius: 84px;
 }
 
 .heading-second {
-font-size: 18px;
-line-height: 27px;
-margin-top: 30px;
-margin-bottom: 10px;    
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 30px;
+}
+
+
+.line {
+    width: 200px;
+    border-bottom: 2px solid #f18b42;
+    margin-bottom: 10px;    
+}
+.list-contacts {
+    padding-left: 0px;
 }
 
 .link {
@@ -85,6 +124,12 @@ margin-bottom: 10px;
 .link-dark {
     color: #1b3764;
     text-decoration: none;
+}
+
+.long-line {
+    width: 100%;
+    border-bottom: 2px solid #1b3764;;
+    margin-bottom: 10px;    
 }
 
 .heading-third {
@@ -99,4 +144,22 @@ margin-bottom: 10px;
 .about {
     text-align: justify;
     margin-bottom: 14px;
+}
+
+a:hover {
+    color: #f18b42;
+    text-decoration: underline;
+}
+
+.projects {
+    padding-left: 20px;
+}
+
+.project-item {
+    margin-bottom: 8px;
+}
+
+.item-contacts {
+    list-style-type: none;
+    margin-bottom: 5px;
 }
