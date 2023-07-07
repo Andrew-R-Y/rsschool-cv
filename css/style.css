@@ -23,9 +23,10 @@
     flex-basis: 33%;
     box-sizing: border-box;
     padding: 20px;
+    font-size: 14px;
+    line-height: 21px;
     background-color: #1b3764;
     color: #ffffff;
-    border: 1px solid black;
 }
 
 .content-right {
@@ -35,7 +36,6 @@
     padding: 20px;
     color: #1b3764;
     background-color: #ffffff;
-    border: 1px solid black;
 }
 
 .header {
@@ -67,4 +67,36 @@ p.second-line {
 .CV-image {
     display: block;
     margin: 0 auto;
+    border-radius: 84px;
+}
+
+.heading-second {
+font-size: 18px;
+line-height: 27px;
+margin-top: 30px;
+margin-bottom: 10px;    
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.link-dark {
+    color: #1b3764;
+    text-decoration: none;
+}
+
+.heading-third {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.list {
+    padding-left: 20px;
+}
+
+.about {
+    text-align: justify;
+    margin-bottom: 14px;
 }
