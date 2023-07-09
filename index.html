@@ -137,17 +137,19 @@
             <section>
               <h2 class="heading-second" id="code">Code sample:</h2>
               <div class="long-line"></div>
-              <code>
-                &nbsp;&nbsp;function deepCount(a){<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;return a.reduce((accum, item) => {<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (typeof item === 'string' || typeof item === 'number') {<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return (accum = accum + 1);<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} else {<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return accum + 1 + deepCount(item);<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;}, 0);<br>
-                &nbsp;&nbsp;}<br>
-              </code>
+              <pre class="pre">
+                <code class="code">
+function deepCount(a){
+  return a.reduce((accum, item) => {
+    if (typeof item === 'string' || typeof item === 'number') {
+      return (accum = accum + 1);
+    } else {
+      return accum + 1 + deepCount(item);
+    }
+  }, 0);
+}
+                </code>
+              </pre>
             </section>
             <!-- section Code end -->
 

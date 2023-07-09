@@ -197,3 +197,12 @@ a:hover {
     color: #000000;
     text-decoration: none;
 }
+
+.code {
+    line-height: 20px;
+}
+
+.pre {
+    margin-top: -20px;
+    margin-bottom: -50px;
+}
